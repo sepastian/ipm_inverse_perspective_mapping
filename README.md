@@ -1,5 +1,21 @@
-https://stackoverflow.com/a/57440865/92049
+# Inverse Perspective Mapping
 
-Measure 4 points in source image;
-map these 4 points to destination image;
-run.py.
+Use Inverse Perspective Mapping to create a bird eye view from an image.
+Use a reference in the image to be able to make measurement.
+
+Based on [this](https://stackoverflow.com/a/57440865/92049) answer on Stackoverflow.
+
+Input image:
+
+![input image](image.jpg)
+
+Output image:
+
+![output image](result.jpg)
+
+# Usage
+
+``` shell
+python run.py
+feh result.jpg
+```

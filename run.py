@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+# Based on https://stackoverflow.com/a/57440865/92049
+
 img = cv2.imread('image.jpg')
 
 pts_src= [
@@ -48,6 +50,6 @@ for pt in ipm_pts:
 #cv2.imshow('ipm', ipm)
 #cv2.waitKey()
 
-filename='image_ipm.jpg'
+filename='result.jpg'
 print(f'Writting {filename}...')
-cv2.imwrite(filename, ipm)
+cv2.imwrite(filename, ipm, [int(cv2.IMWRITE_JPEG_QUALITY), 60])
