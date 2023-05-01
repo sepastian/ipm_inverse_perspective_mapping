@@ -7,7 +7,7 @@ Based on [this](https://stackoverflow.com/a/57440865/92049) answer on Stackoverf
 
 Input image:
 
-![input image](res/image.jpg)
+![input image](res/input.jpg)
 
 Output image:
 
