@@ -7,11 +7,11 @@ Based on [this](https://stackoverflow.com/a/57440865/92049) answer on Stackoverf
 
 Input image:
 
-![input image](IMG_20230501_093032.jpg)
+![input image](res/image.jpg)
 
 Output image:
 
-![output image](result.jpg)
+![output image](res/result.jpg)
 
 # Usage
 
